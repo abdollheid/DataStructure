@@ -1,9 +1,4 @@
 
-package learning_datastrucure;
-
-import java.util.Arrays;
-import java.util.Random;
-
 public class IndexedMinProrityQueue <Key extends Comparable<Key>> {
     private int positionsOfIndicies[] , IndiciesOfPositions[] , n; 
     private Key ar [] ;
